@@ -8,7 +8,7 @@ namespace MiApiCuadrado_ConBaseDeDatos
     {
     }
 
-    public DbSet<Personajes> Personaje { get ; set; }
+    public DbSet<Personajes> Personajes { get ; set; }
     public DbSet<Casas> Casa { get ; set; }
     public DbSet<TiposSangresMagicas> TipoSangreMagica { get ; set; }
     public DbSet<VaritasMagicas> VaritaMagica { get ; set; }
